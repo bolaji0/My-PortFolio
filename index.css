@@ -46,7 +46,8 @@
     --container-small-width: 500px;
 
     --gutter-huge: 12rem;
-    --gutter-medium: 4rem;
+    --gutter-medium: 6rem;
+    --gutter-Medium-Small: 4rem;
     --gutter-normal: 3rem;
     --gutter-small-1: 2.5rem;
     --gutter-small: 2rem;
@@ -99,11 +100,11 @@ body {
     }
 }
 
-@media(max-width: 600px) {
+/* @media(max-width: 600px) {
     .row {
         padding: 0 var(--gutter-small);
     }
-}
+} */
 
 section {
     padding: var(--gutter-huge) 0;
@@ -357,11 +358,12 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 450px) {
     .nav__item:not(:last-child) {
-        margin-right: var(--gutter-normal);
+        margin-right: var(--gutter-small);
     }
 }
+
 
 @media(max-width: 300px) {
     .nav {
