@@ -96,7 +96,7 @@ body {
 
 @media(max-width: 600px) {
     .row {
-        padding: 0 var(--gutter-normal);
+        padding: 0 var(--gutter-small);
     }
 }
 
@@ -360,7 +360,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 450px) {
     .nav__item:not(:last-child) {
-        margin-right: var(--gutter-small);
+        margin-right: var(--gutter-Medium-Small);
     }
 }
 
